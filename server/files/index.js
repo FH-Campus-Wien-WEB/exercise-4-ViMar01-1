@@ -165,7 +165,19 @@ window.onload = function () {
   function renderUserGreeting() {
     const greetingElement = document.getElementById('userGreeting');
     if (currentSession) {
-      // Task 1.2: Render a user greeting to `#userGreeting` 
+      const loginDate = new Date(currentSession.loginTime);
+      const formattedDate = loginDate.toLocaleString('de-AT', {
+        dateStyle: 'long',
+        timeStyle: 'short'
+      })
+
+      const firstName = currentSession.firstName;
+      const lastName = currentSession.lastName;
+
+      greetingElement.textContent =
+        `Hi ${firstName} ${lastName}, du hast dich am ${formattedDate} angemeldet.`;
+      
+      // Done Task 1.2: Render a user greeting to `#userGreeting` 
       // using `firstName`, `lastName`, and the server-provided
       // login timestamp.
     } else {
@@ -212,9 +224,45 @@ window.onload = function () {
     e.preventDefault();
     const formData = new FormData(e.target);
 
-    // Task 1.1: Implement the login submit flow to call `POST /login` 
+    //Done Task 1.1: Implement the login submit flow to call `POST /login` 
     // with username and password, handle errors, save the response 
     // into `currentSession`, then call `updateUI()` and `loadMovies()`.
+    const data = {
+    username: formData.get('username'),
+    password: formData.get('password')
+  };
+    
+    fetch('/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+      })
+      .then(response => {
+
+      //if response is not ok, throw error
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      // name 
+      return response.json();
+    })
+    .then(session => {
+      // Session speichern
+      currentSession = session;
+
+      document.getElementById('loginDialog').close();
+    
+      updateUI();
+      loadMovies();
+    })
+    .catch(error => {
+      console.error('Login failed:', error);
+
+      alert(messages.loginFailed); })
+
 
   });
 
