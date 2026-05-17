@@ -222,5 +222,342 @@
       "Metascore": 88,
       "imdbRating": 8.5
     }
+  },
+  "viktoria": {
+    "tt5104604": {
+      "imdbID": "tt5104604",
+      "Title": "Isle of Dogs",
+      "Released": "2018-04-12",
+      "Runtime": 101,
+      "Genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "Directors": [
+        "Wes Anderson"
+      ],
+      "Writers": [
+        "Wes Anderson",
+        "Kunichi Nomura",
+        "Roman Coppola"
+      ],
+      "Actors": [
+        "Bryan Cranston",
+        "Koyu Rankin",
+        "Edward Norton"
+      ],
+      "Plot": "Set in Japan, Isle of Dogs follows a boy's odyssey in search of his lost dog.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTVmZWFmYWYtZTY1NC00Yjg5LTkxZGItZjhiYTExNTExNjA3XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "Metascore": 82,
+      "imdbRating": 7.8
+    },
+    "tt0165982": {
+      "imdbID": "tt0165982",
+      "Title": "Sinbad: Legend of the Seven Seas",
+      "Released": "2003-07-01",
+      "Runtime": 86,
+      "Genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "Directors": [
+        "Patrick Gilmore",
+        "Tim Johnson"
+      ],
+      "Writers": [
+        "John Logan"
+      ],
+      "Actors": [
+        "Brad Pitt",
+        "Catherine Zeta-Jones",
+        "Joseph Fiennes"
+      ],
+      "Plot": "The sailor of legend is framed by the goddess Eris for the theft of the Book of Peace and must travel to her realm at the end of the world to retrieve it and save the life of his childhood friend Prince Proteus.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTIyMzE1ODI3NF5BMl5BanBnXkFtZTYwMDE3NDc2._V1_SX300.jpg",
+      "Metascore": 48,
+      "imdbRating": 6.7
+    },
+    "tt0092695": {
+      "imdbID": "tt0092695",
+      "Title": "The Brave Little Toaster",
+      "Released": "1987-07-09",
+      "Runtime": 90,
+      "Genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "Directors": [
+        "Jerry Rees"
+      ],
+      "Writers": [
+        "Thomas M. Disch",
+        "Jerry Rees",
+        "Joe Ranft"
+      ],
+      "Actors": [
+        "Jon Lovitz",
+        "Timothy Stack",
+        "Timothy E. Day"
+      ],
+      "Plot": "A group of dated appliances embark on a journey to the city to find their master after being abandoned in a cabin in the woods.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMmIwZTFlNGUtZTFjYy00YWRhLWI0MTYtYWNkZTdkNDBiOGUxXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": null,
+      "imdbRating": 7.2
+    },
+    "tt0120800": {
+      "imdbID": "tt0120800",
+      "Title": "Quest for Camelot",
+      "Released": "1998-05-14",
+      "Runtime": 86,
+      "Genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "Directors": [
+        "Frederik Du Chau"
+      ],
+      "Writers": [
+        "Kirk DeMicco",
+        "William Schifrin",
+        "Jacqueline Feather"
+      ],
+      "Actors": [
+        "Jessalyn Gilsig",
+        "Cary Elwes",
+        "Andrea Corr"
+      ],
+      "Plot": "An adventurous girl, a young blind hermit, and a goofy two-headed dragon race to find the lost sword Excalibur to save King Arthur and Camelot from disaster.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTJlMTYxZGQtYjVhNC00MjFmLWI0ZjUtNzE1NjI0ZTVhZjg4XkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 50,
+      "imdbRating": 6.3
+    },
+    "tt0763304": {
+      "imdbID": "tt0763304",
+      "Title": "Doogal",
+      "Released": "2006-02-23",
+      "Runtime": 78,
+      "Genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "Directors": [
+        "Dave Borthwick",
+        "Jean Duval",
+        "Frank Passingham"
+      ],
+      "Writers": [
+        "Paul Bassett",
+        "Tad Safran",
+        "Raoff Sanoussi"
+      ],
+      "Actors": [
+        "Jon Stewart",
+        "Judi Dench",
+        "Daniel Tay"
+      ],
+      "Plot": "The clumsy dog Doogal frees a cruel wizard, who seeks to find three magical diamonds capable of, together, freezing the sun. Now, a slug, a cow, a rabbit, and a train, led by Doogal, will have to save the world.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTkxODg1MTI5M15BMl5BanBnXkFtZTYwNjk1MDI3._V1_SX300.jpg",
+      "Metascore": 23,
+      "imdbRating": 2.8
+    },
+    "tt0112389": {
+      "imdbID": "tt0112389",
+      "Title": "The Thief and the Cobbler",
+      "Released": "1995-08-24",
+      "Runtime": 99,
+      "Genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "Directors": [
+        "Richard Williams"
+      ],
+      "Writers": [
+        "Richard Williams",
+        "Margaret French",
+        "Parker Bennett"
+      ],
+      "Actors": [
+        "Vincent Price",
+        "Matthew Broderick",
+        "Jennifer Beals"
+      ],
+      "Plot": "A lonely princess and a poor cobbler fall in love while trying to reclaim three magical orbs stolen by a bumbling thief, all while outwitting an ambitious sorcerer.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjgyODY3YjYtMWNiYy00ZWVkLTk5MTUtNjQyOWE3NzBhNTYwXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": null,
+      "imdbRating": 7.1
+    },
+    "tt3901826": {
+      "imdbID": "tt3901826",
+      "Title": "The Breadwinner",
+      "Released": "2017-11-16",
+      "Runtime": 94,
+      "Genres": [
+        "Animation",
+        "Drama",
+        "War"
+      ],
+      "Directors": [
+        "Nora Twomey"
+      ],
+      "Writers": [
+        "Anita Doron",
+        "Deborah Ellis"
+      ],
+      "Actors": [
+        "Saara Chaudry",
+        "Soma Chhaya",
+        "Noorin Gulamgaus"
+      ],
+      "Plot": "In 2001, Afghanistan is under the control of the Taliban. When her father is captured, a determined young girl disguises herself as a boy in order to provide for her family.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzlhMTkzYTYtOTBiZC00NzE4LWJlM2MtMmEwMWIxNTg3YjRkXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 78,
+      "imdbRating": 7.7
+    },
+    "tt12412888": {
+      "imdbID": "tt12412888",
+      "Title": "Sonic the Hedgehog 2",
+      "Released": "2022-04-07",
+      "Runtime": 122,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "Directors": [
+        "Jeff Fowler"
+      ],
+      "Writers": [
+        "Pat Casey",
+        "Josh Miller",
+        "John Whittington"
+      ],
+      "Actors": [
+        "James Marsden",
+        "Jim Carrey",
+        "Ben Schwartz"
+      ],
+      "Plot": "When Dr. Robotnik returns with a new partner, Knuckles, in search of an emerald that has the power to destroy civilizations, Sonic teams up with his own sidekick, Tails, on a journey across the world to find the emerald first.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDBiYzk0YTMtNWRiYi00YWY0LWE3NjgtYmJiYTAwZmYzOTM0XkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+      "Metascore": 47,
+      "imdbRating": 6.5
+    },
+    "tt18259086": {
+      "imdbID": "tt18259086",
+      "Title": "Sonic the Hedgehog 3",
+      "Released": "2024-12-19",
+      "Runtime": 110,
+      "Genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "Directors": [
+        "Jeff Fowler"
+      ],
+      "Writers": [
+        "Pat Casey",
+        "Josh Miller",
+        "John Whittington"
+      ],
+      "Actors": [
+        "Jim Carrey",
+        "Ben Schwartz",
+        "Keanu Reeves"
+      ],
+      "Plot": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched, Team Sonic must seek out an unlikely alliance.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjZjNjE5NDEtOWJjYS00Mjk2LWI1ZDYtOWI1ZWI3MzRjM2UzXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
+      "Metascore": 56,
+      "imdbRating": 6.9
+    },
+    "tt3666024": {
+      "imdbID": "tt3666024",
+      "Title": "The Red Turtle",
+      "Released": "2017-01-19",
+      "Runtime": 80,
+      "Genres": [
+        "Animation",
+        "Drama",
+        "Family"
+      ],
+      "Directors": [
+        "Michael Dudok de Wit"
+      ],
+      "Writers": [
+        "Michael Dudok de Wit",
+        "Pascale Ferran"
+      ],
+      "Actors": [
+        "Emmanuel Garijo",
+        "Tom Hudson",
+        "Baptiste Goy"
+      ],
+      "Plot": "A man is shipwrecked on a deserted island and encounters a big red turtle, which changes his life.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzNkNTI3NTYtMzFjNS00ZDExLTkzZDMtYmFhNTY0YTNhYjYzXkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 86,
+      "imdbRating": 7.5
+    },
+    "tt3858372": {
+      "imdbID": "tt3858372",
+      "Title": "Mune: Guardian of the Moon",
+      "Released": "2015-10-13",
+      "Runtime": 85,
+      "Genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "Directors": [
+        "Alexandre Heboyan",
+        "Benoît Philippon"
+      ],
+      "Writers": [
+        "Benoît Philippon",
+        "Jérôme Fansten"
+      ],
+      "Actors": [
+        "Omar Sy",
+        "Izïa Higelin",
+        "Michaël Grégorio"
+      ],
+      "Plot": "Mune, a young fawn, is chosen as the new Guardian of the Moon. Together with Glim, a girl made of wax, and Sohone, the new Guardian of the Sun, they must recover the sun from the evil Necross.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjYzNGVjODgtZmJjNi00NDllLWI4NjAtNzc1ZmRhZTNmNTE1XkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": null,
+      "imdbRating": 7.1
+    },
+    "tt4772188": {
+      "imdbID": "tt4772188",
+      "Title": "Flow",
+      "Released": "2025-02-13",
+      "Runtime": 85,
+      "Genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "Directors": [
+        "Gints Zilbalodis"
+      ],
+      "Writers": [
+        "Gints Zilbalodis",
+        "Matiss Kaza",
+        "Ron Dyens"
+      ],
+      "Actors": [
+        "Gints Zilbalodis",
+        "Thomas Oldman",
+        "Alexander David Bobson"
+      ],
+      "Plot": "Cat is a solitary animal, but as its home is devastated by a great flood, he finds refuge on a boat populated by various species, and will have to team up with them despite their differences.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTM5ODBlOTAtYjcwZi00YzkzLWIzODEtMTM2MTZlNDFmMWU2XkEyXkFqcGc@._V1_SX300.jpg",
+      "Metascore": 87,
+      "imdbRating": 7.9
+    }
   }
 }
