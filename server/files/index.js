@@ -87,8 +87,13 @@ function addMovie(imdbID) {
   fetch(`/movies/${imdbID}`, { method: 'PUT' })
     .then(response => {
       if (response.status === 201) {
-        // Task 2.2: Make sure to remove the added movie from the search results to avoid
+        // Done Task 2.2: Make sure to remove the added movie from the search results to avoid
         // giving the user the option to add it again.
+
+        const searchEntry = document.getElementById(`search-${imdbID}`);
+        if (searchEntry) {
+          searchEntry.remove();
+        }
     
         loadMovies();
         updateGenres();
@@ -133,9 +138,27 @@ function searchMovies(query) {
       const resultsDiv = document.getElementById("searchResults");
       resultsDiv.innerHTML = '';
 
-      // Task 2.2: Render the results returned from the server. Make sure to
+      // Done Task 2.2: Render the results returned from the server. Make sure to
       // include an "Add" button for each result that calls `addMovie(imdbID)` when clicked.
       // There is a second part to this task, in `addMovie`
+
+      if (results.length === 0) {
+        new ElementBuilder("p")
+        .text(messages.noResultsFound)
+        .appendTo(resultsDiv);
+        return;
+      }
+
+      results.forEach(movie => {
+        new ElementBuilder("p")
+        .with("id", `search-${movie.imdbID}`)
+        .text(`${movie.Title} (${movie.Year}) `)
+        .append(
+          new ButtonBuilder("Add")
+          .onclick(() => addMovie(movie.imdbID))
+        )
+        .appendTo(resultsDiv);
+      });
 
     })
     .catch(error => {
@@ -234,9 +257,7 @@ window.onload = function () {
     
     fetch('/login', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
+      headers: { 'Content-Type': 'application/json'},
       body: JSON.stringify(data)
       })
       .then(response => {
